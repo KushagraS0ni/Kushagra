@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Awesome Online Videos</title>
+</head>
+<body>
+<header>
+<img style="float:left" src="give here source of image" height="50pxpx" width="100px"/><h1>Awesome Online Videos</h1>
+</header>
+<div  >
+<video width="500" heigth="500" id="vid" style="background-color:lightpink">
+<source src="give here source of video" type="video/mp4">
+<source src="give here source of video" type="video/ogg">
+</video>
+<button onclick="play()">Play</button>
+<button onclick="pause()">Pause</button>
+</div>
+<script> 
+var myVideo = document.getElementById("vid"); 
+
+function play(){
+myVideo.play();      
+}
+function pause(){
+ myVideo.pause(); 
+}
+</script> 
+<footer></footer>
+</body>
+</html>
